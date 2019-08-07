@@ -10,7 +10,9 @@ import Foundation
 import CoreData
 
 extension Playlist {
-    convenience init(name: String, context: NSManagedObjectContext) {
+    convenience init(name: String, context: NSManagedObjectContext = CoreDataStack.context) {
+        self.init(context: context)
+        
         
     }
 }

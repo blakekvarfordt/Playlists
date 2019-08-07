@@ -14,6 +14,7 @@
 		638AD94E22FA88F8005FA8B3 /* PlaylistsCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 638AD94C22FA88F8005FA8B3 /* PlaylistsCoreData.xcdatamodeld */; };
 		638AD95022FA8A47005FA8B3 /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AD94F22FA8A47005FA8B3 /* Playlist+Convenience.swift */; };
 		638AD95222FA8AB6005FA8B3 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AD95122FA8AB6005FA8B3 /* CoreDataStack.swift */; };
+		638AD95522FA8D7D005FA8B3 /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638AD95422FA8D7D005FA8B3 /* Song+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		638AD94D22FA88F8005FA8B3 /* PlaylistsCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlaylistsCoreData.xcdatamodel; sourceTree = "<group>"; };
 		638AD94F22FA8A47005FA8B3 /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		638AD95122FA8AB6005FA8B3 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		638AD95422FA8D7D005FA8B3 /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				638AD94C22FA88F8005FA8B3 /* PlaylistsCoreData.xcdatamodeld */,
 				638AD94F22FA8A47005FA8B3 /* Playlist+Convenience.swift */,
+				638AD95422FA8D7D005FA8B3 /* Song+Convenience.swift */,
 				638AD95122FA8AB6005FA8B3 /* CoreDataStack.swift */,
 			);
 			path = Models;
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				638AD94E22FA88F8005FA8B3 /* PlaylistsCoreData.xcdatamodeld in Sources */,
+				638AD95522FA8D7D005FA8B3 /* Song+Convenience.swift in Sources */,
 				638AD93B22FA85AA005FA8B3 /* AppDelegate.swift in Sources */,
 				638AD95022FA8A47005FA8B3 /* Playlist+Convenience.swift in Sources */,
 				638AD95222FA8AB6005FA8B3 /* CoreDataStack.swift in Sources */,
